@@ -182,3 +182,18 @@ main,footer{
     background-color: var(--color-base);
     border-radius: 50%;
 }
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.tech-stack span {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background-color: var(--color-base2);
+    color: #fff;
+}
